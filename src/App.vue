@@ -1,6 +1,5 @@
 <template>
-  <div id="app">
-    <img src="./assets/logo.png">
+  <div id="myApp">
     <router-view/>
   </div>
 </template>
@@ -12,12 +11,16 @@ export default {
 </script>
 
 <style>
-#app {
+#myApp {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+body{
+  background: url("./assets/nba.jpg") no-repeat;
+  background-size: cover;
 }
 </style>
